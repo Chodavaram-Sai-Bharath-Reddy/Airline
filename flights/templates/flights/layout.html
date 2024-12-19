@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Airline</h1>
-    <p>username: {{ request.user.username }}</p>
+    <p>User Name: {{ request.user.username }}</p>
     {% block body %}
     {% endblock %}
     <p><a href="{% url 'users:logout' %}">logout</a></p>
